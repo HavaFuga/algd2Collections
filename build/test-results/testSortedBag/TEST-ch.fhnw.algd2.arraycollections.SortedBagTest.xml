@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ch.fhnw.algd2.arraycollections.SortedBagTest" tests="18" skipped="0" failures="15" errors="0" timestamp="2022-03-03T06:13:37" hostname="DESKTOP-4LHQ017" time="0.079">
+  <properties/>
+  <testcase name="removesOnlyOneInstance" classname="ch.fhnw.algd2.arraycollections.SortedBagTest" time="0.012">
+    <failure message="java.lang.NullPointerException" type="java.lang.NullPointerException">java.lang.NullPointerException
+	at java.base/java.util.Arrays.binarySearch0(Arrays.java:2442)
+	at java.base/java.util.Arrays.binarySearch(Arrays.java:2382)
+	at ch.fhnw.algd2.arraycollections.SortedBag.add(SortedBag.java:32)
+	at ch.fhnw.algd2.arraycollections.SortedBag.add(SortedBag.java:5)
+	at ch.fhnw.algd2.arraycollections.general.AbstractBagTest.removesOnlyOneInstance(AbstractBagTest.java:22)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+</failure>
+  </testcase>
+  <testcase name="containsNull" classname="ch.fhnw.algd2.arraycollections.SortedBagTest" time="0.002">
+    <failure message="java.lang.NullPointerException" type="java.lang.NullPointerException">java.lang.NullPointerException
+	at java.base/java.util.Arrays.binarySearch0(Arrays.java:2442)
+	at java.base/java.util.Arrays.binarySearch(Arrays.java:2382)
+	at ch.fhnw.algd2.arraycollections.SortedBag.add(SortedBag.java:32)
+	at ch.fhnw.algd2.arraycollections.SortedBag.add(SortedBag.java:5)
+	at ch.fhnw.algd2.arraycollections.general.AbstractBagTest.addNumbersToBag(AbstractBagTest.java:14)
+	at ch.fhnw.algd2.arraycollections.general.AbstractCollectionTest.containsNull(AbstractCollectionTest.java:111)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+</failure>
+  </testcase>
+  <testcase name="removeLastElement" classname="ch.fhnw.algd2.arraycollections.SortedBagTest" time="0.002">
+    <failure message="java.lang.NullPointerException" type="java.lang.NullPointerException">java.lang.NullPointerException
+	at java.base/java.util.Arrays.binarySearch0(Arrays.java:2442)
+	at java.base/java.util.Arrays.binarySearch(Arrays.java:2382)
+	at ch.fhnw.algd2.arraycollections.SortedBag.add(SortedBag.java:32)
+	at ch.fhnw.algd2.arraycollections.SortedBag.add(SortedBag.java:5)
+	at ch.fhnw.algd2.arraycollections.general.AbstractBagTest.addNumbersToBag(AbstractBagTest.java:14)
+	at ch.fhnw.algd2.arraycollections.general.AbstractCollectionTest.removeLastElement(AbstractCollectionTest.java:190)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+</failure>
+  </testcase>
+  <testcase name="removeNonExisting" classname="ch.fhnw.algd2.arraycollections.SortedBagTest" time="0.002">
+    <failure message="java.lang.NullPointerException" type="java.lang.NullPointerException">java.lang.NullPointerException
+	at java.base/java.util.Arrays.binarySearch0(Arrays.java:2442)
+	at java.base/java.util.Arrays.binarySearch(Arrays.java:2382)
+	at ch.fhnw.algd2.arraycollections.SortedBag.add(SortedBag.java:32)
+	at ch.fhnw.algd2.arraycollections.SortedBag.add(SortedBag.java:5)
+	at ch.fhnw.algd2.arraycollections.general.AbstractBagTest.addNumbersToBag(AbstractBagTest.java:14)
+	at ch.fhnw.algd2.arraycollections.general.AbstractCollectionTest.removeNonExisting(AbstractCollectionTest.java:141)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+</failure>
+  </testcase>
+  <testcase name="addNumberSequence" classname="ch.fhnw.algd2.arraycollections.SortedBagTest" time="0.001">
+    <failure message="java.lang.NullPointerException" type="java.lang.NullPointerException">java.lang.NullPointerException
+	at java.base/java.util.Arrays.binarySearch0(Arrays.java:2442)
+	at java.base/java.util.Arrays.binarySearch(Arrays.java:2382)
+	at ch.fhnw.algd2.arraycollections.SortedBag.add(SortedBag.java:32)
+	at ch.fhnw.algd2.arraycollections.SortedBag.add(SortedBag.java:5)
+	at ch.fhnw.algd2.arraycollections.general.AbstractBagTest.addNumbersToBag(AbstractBagTest.java:14)
+	at ch.fhnw.algd2.arraycollections.general.AbstractCollectionTest.addNumberSequence(AbstractCollectionTest.java:49)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+</failure>
+  </testcase>
+  <testcase name="addDuplicates" classname="ch.fhnw.algd2.arraycollections.SortedBagTest" time="0.002">
+    <failure message="java.lang.NullPointerException" type="java.lang.NullPointerException">java.lang.NullPointerException
+	at java.base/java.util.Arrays.binarySearch0(Arrays.java:2442)
+	at java.base/java.util.Arrays.binarySearch(Arrays.java:2382)
+	at ch.fhnw.algd2.arraycollections.SortedBag.add(SortedBag.java:32)
+	at ch.fhnw.algd2.arraycollections.SortedBag.add(SortedBag.java:5)
+	at ch.fhnw.algd2.arraycollections.general.AbstractBagTest.addNumbersToBag(AbstractBagTest.java:14)
+	at ch.fhnw.algd2.arraycollections.general.AbstractCollectionTest.addDuplicates(AbstractCollectionTest.java:63)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+</failure>
+  </testcase>
+  <testcase name="containsLastElement" classname="ch.fhnw.algd2.arraycollections.SortedBagTest" time="0.001">
+    <failure message="java.lang.NullPointerException" type="java.lang.NullPointerException">java.lang.NullPointerException
+	at java.base/java.util.Arrays.binarySearch0(Arrays.java:2442)
+	at java.base/java.util.Arrays.binarySearch(Arrays.java:2382)
+	at ch.fhnw.algd2.arraycollections.SortedBag.add(SortedBag.java:32)
+	at ch.fhnw.algd2.arraycollections.SortedBag.add(SortedBag.java:5)
+	at ch.fhnw.algd2.arraycollections.general.AbstractBagTest.addNumbersToBag(AbstractBagTest.java:14)
+	at ch.fhnw.algd2.arraycollections.general.AbstractCollectionTest.containsLastElement(AbstractCollectionTest.java:168)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+</failure>
+  </testcase>
+  <testcase name="addNull" classname="ch.fhnw.algd2.arraycollections.SortedBagTest" time="0.002"/>
+  <testcase name="removeHasNoMemoryLeak" classname="ch.fhnw.algd2.arraycollections.SortedBagTest" time="0.006">
+    <failure message="java.lang.NullPointerException" type="java.lang.NullPointerException">java.lang.NullPointerException
+	at java.base/java.util.Arrays.binarySearch0(Arrays.java:2442)
+	at java.base/java.util.Arrays.binarySearch(Arrays.java:2382)
+	at ch.fhnw.algd2.arraycollections.SortedBag.add(SortedBag.java:32)
+	at ch.fhnw.algd2.arraycollections.SortedBag.add(SortedBag.java:5)
+	at ch.fhnw.algd2.arraycollections.general.MemoryLeakChecker.add(MemoryLeakChecker.java:40)
+	at ch.fhnw.algd2.arraycollections.general.MemoryLeakChecker.removeHasNoMemoryLeak(MemoryLeakChecker.java:56)
+	at ch.fhnw.algd2.arraycollections.general.AbstractCollectionTest.removeHasNoMemoryLeak(AbstractCollectionTest.java:196)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+</failure>
+  </testcase>
+  <testcase name="addUnsortedNumberSequence" classname="ch.fhnw.algd2.arraycollections.SortedBagTest" time="0.002">
+    <failure message="java.lang.NullPointerException" type="java.lang.NullPointerException">java.lang.NullPointerException
+	at java.base/java.util.Arrays.binarySearch0(Arrays.java:2442)
+	at java.base/java.util.Arrays.binarySearch(Arrays.java:2382)
+	at ch.fhnw.algd2.arraycollections.SortedBag.add(SortedBag.java:32)
+	at ch.fhnw.algd2.arraycollections.SortedBag.add(SortedBag.java:5)
+	at ch.fhnw.algd2.arraycollections.general.AbstractBagTest.addNumbersToBag(AbstractBagTest.java:14)
+	at ch.fhnw.algd2.arraycollections.general.AbstractCollectionTest.addUnsortedNumberSequence(AbstractCollectionTest.java:56)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+</failure>
+  </testcase>
+  <testcase name="testEmptyCollection" classname="ch.fhnw.algd2.arraycollections.SortedBagTest" time="0.001"/>
+  <testcase name="notExistingElementInFullCollection" classname="ch.fhnw.algd2.arraycollections.SortedBagTest" time="0.003">
+    <failure message="java.lang.NullPointerException" type="java.lang.NullPointerException">java.lang.NullPointerException
+	at java.base/java.util.Arrays.binarySearch0(Arrays.java:2442)
+	at java.base/java.util.Arrays.binarySearch(Arrays.java:2382)
+	at ch.fhnw.algd2.arraycollections.SortedBag.add(SortedBag.java:32)
+	at ch.fhnw.algd2.arraycollections.SortedBag.add(SortedBag.java:5)
+	at ch.fhnw.algd2.arraycollections.general.AbstractBagTest.addNumbersToBag(AbstractBagTest.java:14)
+	at ch.fhnw.algd2.arraycollections.general.AbstractCollectionTest.notExistingElementInFullCollection(AbstractCollectionTest.java:86)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+</failure>
+  </testcase>
+  <testcase name="removeElement" classname="ch.fhnw.algd2.arraycollections.SortedBagTest" time="0.002">
+    <failure message="java.lang.NullPointerException" type="java.lang.NullPointerException">java.lang.NullPointerException
+	at java.base/java.util.Arrays.binarySearch0(Arrays.java:2442)
+	at java.base/java.util.Arrays.binarySearch(Arrays.java:2382)
+	at ch.fhnw.algd2.arraycollections.SortedBag.add(SortedBag.java:32)
+	at ch.fhnw.algd2.arraycollections.SortedBag.add(SortedBag.java:5)
+	at ch.fhnw.algd2.arraycollections.general.AbstractBagTest.addNumbersToBag(AbstractBagTest.java:14)
+	at ch.fhnw.algd2.arraycollections.general.AbstractCollectionTest.removeElement(AbstractCollectionTest.java:128)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+</failure>
+  </testcase>
+  <testcase name="removeElementFromFullList" classname="ch.fhnw.algd2.arraycollections.SortedBagTest" time="0.005">
+    <failure message="java.lang.NullPointerException" type="java.lang.NullPointerException">java.lang.NullPointerException
+	at java.base/java.util.Arrays.binarySearch0(Arrays.java:2442)
+	at java.base/java.util.Arrays.binarySearch(Arrays.java:2382)
+	at ch.fhnw.algd2.arraycollections.SortedBag.add(SortedBag.java:32)
+	at ch.fhnw.algd2.arraycollections.SortedBag.add(SortedBag.java:5)
+	at ch.fhnw.algd2.arraycollections.general.AbstractBagTest.addNumbersToBag(AbstractBagTest.java:14)
+	at ch.fhnw.algd2.arraycollections.general.AbstractCollectionTest.removeElementFromFullList(AbstractCollectionTest.java:153)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+</failure>
+  </testcase>
+  <testcase name="addMoreThanCapacity" classname="ch.fhnw.algd2.arraycollections.SortedBagTest" time="0.003">
+    <failure message="java.lang.Exception: Unexpected exception, expected&lt;java.lang.IllegalStateException&gt; but was&lt;java.lang.NullPointerException&gt;" type="java.lang.Exception">java.lang.Exception: Unexpected exception, expected&lt;java.lang.IllegalStateException&gt; but was&lt;java.lang.NullPointerException&gt;
+	at org.junit.internal.runners.statements.ExpectException.evaluate(ExpectException.java:28)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.NullPointerException
+	at java.base/java.util.Arrays.binarySearch0(Arrays.java:2442)
+	at java.base/java.util.Arrays.binarySearch(Arrays.java:2382)
+	at ch.fhnw.algd2.arraycollections.SortedBag.add(SortedBag.java:32)
+	at ch.fhnw.algd2.arraycollections.SortedBag.add(SortedBag.java:5)
+	at ch.fhnw.algd2.arraycollections.general.AbstractBagTest.addNumbersToBag(AbstractBagTest.java:14)
+	at ch.fhnw.algd2.arraycollections.general.AbstractCollectionTest.addMoreThanCapacity(AbstractCollectionTest.java:73)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.ExpectException.evaluate(ExpectException.java:19)
+	... 5 more
+</failure>
+  </testcase>
+  <testcase name="containsWithEquals" classname="ch.fhnw.algd2.arraycollections.SortedBagTest" time="0.011">
+    <failure message="java.lang.NullPointerException" type="java.lang.NullPointerException">java.lang.NullPointerException
+	at java.base/java.util.Arrays.binarySearch0(Arrays.java:2442)
+	at java.base/java.util.Arrays.binarySearch(Arrays.java:2382)
+	at ch.fhnw.algd2.arraycollections.SortedBag.add(SortedBag.java:32)
+	at ch.fhnw.algd2.arraycollections.SortedBag.add(SortedBag.java:5)
+	at ch.fhnw.algd2.arraycollections.general.AbstractCollectionTest.containsWithEquals(AbstractCollectionTest.java:161)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+</failure>
+  </testcase>
+  <testcase name="addSingleNull" classname="ch.fhnw.algd2.arraycollections.SortedBagTest" time="0.003"/>
+  <testcase name="containsOtherObject" classname="ch.fhnw.algd2.arraycollections.SortedBagTest" time="0.006">
+    <failure message="java.lang.NullPointerException" type="java.lang.NullPointerException">java.lang.NullPointerException
+	at java.base/java.util.Arrays.binarySearch0(Arrays.java:2442)
+	at java.base/java.util.Arrays.binarySearch(Arrays.java:2382)
+	at ch.fhnw.algd2.arraycollections.SortedBag.add(SortedBag.java:32)
+	at ch.fhnw.algd2.arraycollections.SortedBag.add(SortedBag.java:5)
+	at ch.fhnw.algd2.arraycollections.general.AbstractBagTest.addNumbersToBag(AbstractBagTest.java:14)
+	at ch.fhnw.algd2.arraycollections.general.AbstractCollectionTest.containsOtherObject(AbstractCollectionTest.java:176)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
